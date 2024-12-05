@@ -437,3 +437,102 @@ x========x]
 [2024-12-05 23:05:52,754: INFO: main: >>>>> stage Data Transformation Stage Completed <<<<<<<
 
 x========x]
+[2024-12-05 23:22:37,277: INFO: main: >>>>> stage Data Ingestion Stage Started <<<<<<<
+
+x========x]
+[2024-12-05 23:22:37,281: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-05 23:22:37,282: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-05 23:22:37,285: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-05 23:22:37,286: INFO: common: created directory at: artifacts]
+[2024-12-05 23:22:37,286: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-05 23:22:37,287: INFO: data_ingestion: File already exists]
+[2024-12-05 23:22:37,295: INFO: main: >>>>> stage Data Ingestion Stage Completed <<<<<<<
+
+x========x]
+[2024-12-05 23:22:37,296: INFO: main: >>>>> stage Data Validation Stage Started <<<<<<<
+
+x========x]
+[2024-12-05 23:22:37,299: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-05 23:22:37,301: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-05 23:22:37,304: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-05 23:22:37,305: INFO: common: created directory at: artifacts]
+[2024-12-05 23:22:37,306: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-05 23:22:37,329: INFO: main: >>>>> stage Data Validation Stage Completed <<<<<<<
+
+x========x]
+[2024-12-05 23:22:37,330: INFO: main: >>>>> stage Data Transformation Stage Started <<<<<<<
+
+x========x]
+[2024-12-05 23:22:37,334: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-05 23:22:37,336: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-05 23:22:37,338: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-05 23:22:37,339: INFO: common: created directory at: artifacts]
+[2024-12-05 23:22:37,340: INFO: common: created directory at: artifacts/data_transformation]
+[2024-12-05 23:22:37,358: INFO: data_transformation: Splited data into training and test sets]
+[2024-12-05 23:22:37,359: INFO: data_transformation: (1199, 12)]
+[2024-12-05 23:22:37,359: INFO: data_transformation: (400, 12)]
+[2024-12-05 23:22:37,360: INFO: main: >>>>> stage Data Transformation Stage Completed <<<<<<<
+
+x========x]
+[2024-12-05 23:22:37,361: INFO: main: >>>>> stage Model Training Stage Started <<<<<<<
+
+x========x]
+[2024-12-05 23:22:37,365: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-05 23:22:37,366: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-05 23:22:37,368: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-05 23:22:37,369: INFO: common: created directory at: artifacts]
+[2024-12-05 23:22:37,370: ERROR: main: 'ConfigurationManager' object has no attribute 'get_model_trainer_config']
+Traceback (most recent call last):
+  File "D:\Shoeb\MLOPS\datascience\main.py", line 47, in <module>
+    obj.initiate_model_training()
+  File "D:\Shoeb\MLOPS\datascience\src\datascience\pipeline\model_training_pipeline.py", line 14, in initiate_model_training
+    model_trainer_config = config.get_model_trainer_config()
+AttributeError: 'ConfigurationManager' object has no attribute 'get_model_trainer_config'
+[2024-12-05 23:23:12,268: INFO: main: >>>>> stage Data Ingestion Stage Started <<<<<<<
+
+x========x]
+[2024-12-05 23:23:12,274: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-05 23:23:12,276: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-05 23:23:12,278: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-05 23:23:12,279: INFO: common: created directory at: artifacts]
+[2024-12-05 23:23:12,280: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-05 23:23:12,280: INFO: data_ingestion: File already exists]
+[2024-12-05 23:23:12,284: INFO: main: >>>>> stage Data Ingestion Stage Completed <<<<<<<
+
+x========x]
+[2024-12-05 23:23:12,285: INFO: main: >>>>> stage Data Validation Stage Started <<<<<<<
+
+x========x]
+[2024-12-05 23:23:12,289: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-05 23:23:12,291: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-05 23:23:12,293: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-05 23:23:12,293: INFO: common: created directory at: artifacts]
+[2024-12-05 23:23:12,294: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-05 23:23:12,314: INFO: main: >>>>> stage Data Validation Stage Completed <<<<<<<
+
+x========x]
+[2024-12-05 23:23:12,315: INFO: main: >>>>> stage Data Transformation Stage Started <<<<<<<
+
+x========x]
+[2024-12-05 23:23:12,318: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-05 23:23:12,319: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-05 23:23:12,322: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-05 23:23:12,323: INFO: common: created directory at: artifacts]
+[2024-12-05 23:23:12,324: INFO: common: created directory at: artifacts/data_transformation]
+[2024-12-05 23:23:12,342: INFO: data_transformation: Splited data into training and test sets]
+[2024-12-05 23:23:12,342: INFO: data_transformation: (1199, 12)]
+[2024-12-05 23:23:12,342: INFO: data_transformation: (400, 12)]
+[2024-12-05 23:23:12,343: INFO: main: >>>>> stage Data Transformation Stage Completed <<<<<<<
+
+x========x]
+[2024-12-05 23:23:12,344: INFO: main: >>>>> stage Model Training Stage Started <<<<<<<
+
+x========x]
+[2024-12-05 23:23:12,347: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-05 23:23:12,349: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-05 23:23:12,351: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-05 23:23:12,352: INFO: common: created directory at: artifacts]
+[2024-12-05 23:23:12,353: INFO: common: created directory at: artifacts/model_trainer]
+[2024-12-05 23:23:12,381: INFO: main: >>>>> stage Model Training Stage Completed <<<<<<<
+
+x========x]
