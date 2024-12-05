@@ -161,3 +161,279 @@ x========x]
 [2024-12-05 21:59:30,132: INFO: main: >>>>> stage Data Validation Stage Completed <<<<<<<
 
 x========x]
+[2024-12-05 22:53:20,087: INFO: main: >>>>> stage Data Ingestion Stage Started <<<<<<<
+
+x========x]
+[2024-12-05 22:53:20,091: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-05 22:53:20,093: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-05 22:53:20,096: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-05 22:53:20,097: INFO: common: created directory at: artifacts]
+[2024-12-05 22:53:20,097: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-05 22:53:20,099: INFO: data_ingestion: File already exists]
+[2024-12-05 22:53:20,102: INFO: main: >>>>> stage Data Ingestion Stage Completed <<<<<<<
+
+x========x]
+[2024-12-05 22:53:20,103: INFO: main: >>>>> stage Data Validation Stage Started <<<<<<<
+
+x========x]
+[2024-12-05 22:53:20,107: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-05 22:53:20,108: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-05 22:53:20,111: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-05 22:53:20,111: INFO: common: created directory at: artifacts]
+[2024-12-05 22:53:20,112: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-05 22:53:20,127: INFO: main: >>>>> stage Data Validation Stage Completed <<<<<<<
+
+x========x]
+[2024-12-05 22:53:20,129: INFO: main: >>>>> stage Data Transformation Stage Started <<<<<<<
+
+x========x]
+[2024-12-05 22:53:20,129: ERROR: main: 'DataTransformationPipeline' object has no attribute 'initiate_data_validation']
+Traceback (most recent call last):
+  File "D:\Shoeb\MLOPS\datascience\main.py", line 34, in <module>
+    obj.initiate_data_validation()
+AttributeError: 'DataTransformationPipeline' object has no attribute 'initiate_data_validation'
+[2024-12-05 22:53:49,926: INFO: main: >>>>> stage Data Ingestion Stage Started <<<<<<<
+
+x========x]
+[2024-12-05 22:53:49,929: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-05 22:53:49,930: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-05 22:53:49,932: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-05 22:53:49,933: INFO: common: created directory at: artifacts]
+[2024-12-05 22:53:49,933: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-05 22:53:49,934: INFO: data_ingestion: File already exists]
+[2024-12-05 22:53:49,936: INFO: main: >>>>> stage Data Ingestion Stage Completed <<<<<<<
+
+x========x]
+[2024-12-05 22:53:49,937: INFO: main: >>>>> stage Data Validation Stage Started <<<<<<<
+
+x========x]
+[2024-12-05 22:53:49,941: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-05 22:53:49,942: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-05 22:53:49,945: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-05 22:53:49,947: INFO: common: created directory at: artifacts]
+[2024-12-05 22:53:49,949: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-05 22:53:49,964: INFO: main: >>>>> stage Data Validation Stage Completed <<<<<<<
+
+x========x]
+[2024-12-05 22:53:49,965: INFO: main: >>>>> stage Data Transformation Stage Started <<<<<<<
+
+x========x]
+[2024-12-05 22:53:49,966: ERROR: main: 'DataTransformationPipeline' object has no attribute 'initiate_data_transformation']
+Traceback (most recent call last):
+  File "D:\Shoeb\MLOPS\datascience\main.py", line 34, in <module>
+    obj.initiate_data_transformation()
+AttributeError: 'DataTransformationPipeline' object has no attribute 'initiate_data_transformation'
+[2024-12-05 22:54:52,483: INFO: main: >>>>> stage Data Ingestion Stage Started <<<<<<<
+
+x========x]
+[2024-12-05 22:54:52,487: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-05 22:54:52,488: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-05 22:54:52,489: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-05 22:54:52,490: INFO: common: created directory at: artifacts]
+[2024-12-05 22:54:52,491: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-05 22:54:52,491: INFO: data_ingestion: File already exists]
+[2024-12-05 22:54:52,494: INFO: main: >>>>> stage Data Ingestion Stage Completed <<<<<<<
+
+x========x]
+[2024-12-05 22:54:52,495: INFO: main: >>>>> stage Data Validation Stage Started <<<<<<<
+
+x========x]
+[2024-12-05 22:54:52,499: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-05 22:54:52,500: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-05 22:54:52,503: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-05 22:54:52,504: INFO: common: created directory at: artifacts]
+[2024-12-05 22:54:52,505: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-05 22:54:52,519: INFO: main: >>>>> stage Data Validation Stage Completed <<<<<<<
+
+x========x]
+[2024-12-05 22:54:52,519: INFO: main: >>>>> stage Data Transformation Stage Started <<<<<<<
+
+x========x]
+[2024-12-05 22:54:52,522: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-05 22:54:52,525: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-05 22:54:52,527: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-05 22:54:52,528: INFO: common: created directory at: artifacts]
+[2024-12-05 22:54:52,529: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-05 22:54:52,530: INFO: main: >>>>> stage Data Transformation Stage Completed <<<<<<<
+
+x========x]
+[2024-12-05 22:56:54,735: INFO: main: >>>>> stage Data Ingestion Stage Started <<<<<<<
+
+x========x]
+[2024-12-05 22:56:54,738: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-05 22:56:54,739: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-05 22:56:54,741: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-05 22:56:54,742: INFO: common: created directory at: artifacts]
+[2024-12-05 22:56:54,742: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-05 22:56:54,743: INFO: data_ingestion: File already exists]
+[2024-12-05 22:56:54,747: INFO: main: >>>>> stage Data Ingestion Stage Completed <<<<<<<
+
+x========x]
+[2024-12-05 22:56:54,749: INFO: main: >>>>> stage Data Validation Stage Started <<<<<<<
+
+x========x]
+[2024-12-05 22:56:54,752: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-05 22:56:54,753: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-05 22:56:54,756: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-05 22:56:54,758: INFO: common: created directory at: artifacts]
+[2024-12-05 22:56:54,759: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-05 22:56:54,780: INFO: main: >>>>> stage Data Validation Stage Completed <<<<<<<
+
+x========x]
+[2024-12-05 22:56:54,782: INFO: main: >>>>> stage Data Transformation Stage Started <<<<<<<
+
+x========x]
+[2024-12-05 22:56:54,785: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-05 22:56:54,786: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-05 22:56:54,788: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-05 22:56:54,789: INFO: common: created directory at: artifacts]
+[2024-12-05 22:56:54,790: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-05 22:56:54,791: INFO: main: >>>>> stage Data Transformation Stage Completed <<<<<<<
+
+x========x]
+[2024-12-05 22:58:00,005: INFO: main: >>>>> stage Data Ingestion Stage Started <<<<<<<
+
+x========x]
+[2024-12-05 22:58:00,010: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-05 22:58:00,014: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-05 22:58:00,019: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-05 22:58:00,022: INFO: common: created directory at: artifacts]
+[2024-12-05 22:58:00,022: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-05 22:58:00,024: INFO: data_ingestion: File already exists]
+[2024-12-05 22:58:00,027: INFO: main: >>>>> stage Data Ingestion Stage Completed <<<<<<<
+
+x========x]
+[2024-12-05 22:58:00,028: INFO: main: >>>>> stage Data Validation Stage Started <<<<<<<
+
+x========x]
+[2024-12-05 22:58:00,031: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-05 22:58:00,033: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-05 22:58:00,035: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-05 22:58:00,036: INFO: common: created directory at: artifacts]
+[2024-12-05 22:58:00,037: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-05 22:58:00,051: INFO: main: >>>>> stage Data Validation Stage Completed <<<<<<<
+
+x========x]
+[2024-12-05 22:58:00,052: INFO: main: >>>>> stage Data Transformation Stage Started <<<<<<<
+
+x========x]
+[2024-12-05 22:58:00,056: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-05 22:58:00,057: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-05 22:58:00,062: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-05 22:58:00,062: INFO: common: created directory at: artifacts]
+[2024-12-05 22:58:00,062: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-05 22:58:00,063: INFO: main: >>>>> stage Data Transformation Stage Completed <<<<<<<
+
+x========x]
+[2024-12-05 23:02:12,880: INFO: main: >>>>> stage Data Ingestion Stage Started <<<<<<<
+
+x========x]
+[2024-12-05 23:02:12,883: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-05 23:02:12,884: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-05 23:02:12,887: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-05 23:02:12,888: INFO: common: created directory at: artifacts]
+[2024-12-05 23:02:12,888: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-05 23:02:12,889: INFO: data_ingestion: File already exists]
+[2024-12-05 23:02:12,892: INFO: main: >>>>> stage Data Ingestion Stage Completed <<<<<<<
+
+x========x]
+[2024-12-05 23:02:12,893: INFO: main: >>>>> stage Data Validation Stage Started <<<<<<<
+
+x========x]
+[2024-12-05 23:02:12,895: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-05 23:02:12,896: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-05 23:02:12,898: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-05 23:02:12,899: INFO: common: created directory at: artifacts]
+[2024-12-05 23:02:12,900: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-05 23:02:12,914: INFO: main: >>>>> stage Data Validation Stage Completed <<<<<<<
+
+x========x]
+[2024-12-05 23:02:12,915: INFO: main: >>>>> stage Data Transformation Stage Started <<<<<<<
+
+x========x]
+[2024-12-05 23:02:12,917: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-05 23:02:12,918: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-05 23:02:12,920: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-05 23:02:12,921: INFO: common: created directory at: artifacts]
+[2024-12-05 23:02:12,922: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-05 23:02:12,923: INFO: main: >>>>> stage Data Transformation Stage Completed <<<<<<<
+
+x========x]
+[2024-12-05 23:03:08,738: INFO: main: >>>>> stage Data Ingestion Stage Started <<<<<<<
+
+x========x]
+[2024-12-05 23:03:08,741: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-05 23:03:08,741: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-05 23:03:08,743: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-05 23:03:08,744: INFO: common: created directory at: artifacts]
+[2024-12-05 23:03:08,744: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-05 23:03:08,745: INFO: data_ingestion: File already exists]
+[2024-12-05 23:03:08,748: INFO: main: >>>>> stage Data Ingestion Stage Completed <<<<<<<
+
+x========x]
+[2024-12-05 23:03:08,748: INFO: main: >>>>> stage Data Validation Stage Started <<<<<<<
+
+x========x]
+[2024-12-05 23:03:08,751: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-05 23:03:08,752: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-05 23:03:08,755: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-05 23:03:08,756: INFO: common: created directory at: artifacts]
+[2024-12-05 23:03:08,757: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-05 23:03:08,768: INFO: main: >>>>> stage Data Validation Stage Completed <<<<<<<
+
+x========x]
+[2024-12-05 23:03:08,770: INFO: main: >>>>> stage Data Transformation Stage Started <<<<<<<
+
+x========x]
+[2024-12-05 23:03:08,773: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-05 23:03:08,774: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-05 23:03:08,776: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-05 23:03:08,777: INFO: common: created directory at: artifacts]
+[2024-12-05 23:03:08,778: INFO: main: >>>>> stage Data Transformation Stage Completed <<<<<<<
+
+x========x]
+[2024-12-05 23:04:56,430: INFO: main: >>>>> stage Data Ingestion Stage Started <<<<<<<
+
+x========x]
+[2024-12-05 23:04:56,431: ERROR: main: 'DataTransformationTrainingPipeline' object has no attribute 'intiate_data_ingestion']
+Traceback (most recent call last):
+  File "D:\Shoeb\MLOPS\datascience\main.py", line 11, in <module>
+    obj.intiate_data_ingestion()
+AttributeError: 'DataTransformationTrainingPipeline' object has no attribute 'intiate_data_ingestion'
+[2024-12-05 23:05:52,667: INFO: main: >>>>> stage Data Ingestion Stage Started <<<<<<<
+
+x========x]
+[2024-12-05 23:05:52,669: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-05 23:05:52,671: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-05 23:05:52,676: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-05 23:05:52,676: INFO: common: created directory at: artifacts]
+[2024-12-05 23:05:52,676: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-05 23:05:52,677: INFO: data_ingestion: File already exists]
+[2024-12-05 23:05:52,683: INFO: main: >>>>> stage Data Ingestion Stage Completed <<<<<<<
+
+x========x]
+[2024-12-05 23:05:52,683: INFO: main: >>>>> stage Data Validation Stage Started <<<<<<<
+
+x========x]
+[2024-12-05 23:05:52,687: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-05 23:05:52,688: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-05 23:05:52,690: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-05 23:05:52,691: INFO: common: created directory at: artifacts]
+[2024-12-05 23:05:52,692: INFO: common: created directory at: artifacts/data_validation]
+[2024-12-05 23:05:52,707: INFO: main: >>>>> stage Data Validation Stage Completed <<<<<<<
+
+x========x]
+[2024-12-05 23:05:52,708: INFO: main: >>>>> stage Data Transformation Stage Started <<<<<<<
+
+x========x]
+[2024-12-05 23:05:52,711: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-12-05 23:05:52,713: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-12-05 23:05:52,716: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-12-05 23:05:52,717: INFO: common: created directory at: artifacts]
+[2024-12-05 23:05:52,717: INFO: common: created directory at: artifacts/data_transformation]
+[2024-12-05 23:05:52,752: INFO: data_transformation: Splited data into training and test sets]
+[2024-12-05 23:05:52,752: INFO: data_transformation: (1199, 12)]
+[2024-12-05 23:05:52,753: INFO: data_transformation: (400, 12)]
+[2024-12-05 23:05:52,754: INFO: main: >>>>> stage Data Transformation Stage Completed <<<<<<<
+
+x========x]
